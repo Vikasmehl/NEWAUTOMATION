@@ -1,10 +1,10 @@
 //referencemtypes="cypress" />
 describe('hooks',function()
 {
-brefore(function (){
+before(function () {
 cy.log('open website')
 cy.visit('https://automationteststore.com/');
-    cy.url().should('eq','https://automationteststore.com/')
+cy.url().should('eq','https://automationteststore.com/')
 })
 
 
