@@ -63,6 +63,8 @@ it('Add to cart', function ()
     cy.get('div').should('contain','Shipping Address')
     cy.get('div').should('contain','Payment Address')
     cy.xpath('//*[@id="categorymenu"]/nav/ul/li[1]/a').click()
+    cy.xpath('//*[@id="customer_menu_top"]/li/a').click()
+    cy.xpath('//*[@id="maincontainer"]/div/div[2]/div[1]/div/ul/li[10]/a').click()
     
 })
 })
